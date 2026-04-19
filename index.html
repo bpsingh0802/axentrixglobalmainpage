@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="TechVentures Hub develops impactful tech solutions including Public Print, Rin App, MyLoanChecker, Bhiyaji.com, and Digital Mirror to solve everyday challenges with innovative technology.">
+    <meta name="description" content="TechVentures Hub develops impactful tech solutions including Public Print, Rin App, MyLoanChecker, DakshPro.com, and Digital Mirror to solve everyday challenges with innovative technology.">
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="">
@@ -18,7 +18,7 @@
 
     <title>TechVentures Hub | Innovative Tech Solutions for Real-World Problems</title>
     <!-- SEO Description -->
-    <meta name="description" content="TechVentures Hub develops impactful tech solutions including Public Print, Rin App, MyLoanChecker, Bhiyaji.com, and Digital Mirror to solve everyday challenges with innovative technology.">
+    <meta name="description" content="TechVentures Hub develops impactful tech solutions including Public Print, Rin App, MyLoanChecker, DakshPro.com, and Digital Mirror to solve everyday challenges with innovative technology.">
 
     <!-- Performance optimization: Preload critical resources -->
     <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
@@ -584,7 +584,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
                                         </div>
-                                        <h3 class="text-xl font-bold mb-2 text-neutral-800">Bhiyaji.com</h3>
+                                        <h3 class="text-xl font-bold mb-2 text-neutral-800">DakshPro.com</h3>
                                     </div>
                                     <div class="p-6">
                                         <p class="text-neutral-600 mb-4">
@@ -607,7 +607,7 @@
                 </svg> Service guarantees
                                             </li>
                                         </ul>
-                                        <button id="bhiyajiBtn" class="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-lg transition-colors duration-300">
+                                        <button id="DakshProBtn" class="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-lg transition-colors duration-300">
               Learn More
             </button>
                                     </div>
@@ -814,18 +814,18 @@
                                             <!-- Content continues with similar structure -->
                                         </div>
 
-                                        <div id="bhiyajiContent" class="hidden">
-                                            <!-- Bhiyaji.com content -->
+                                        <div id="DakshProContent" class="hidden">
+                                            <!-- DakshPro.com content -->
                                             <div class="flex items-start mb-6">
                                                 <div class="w-12 h-12 bg-amber-600 text-white rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                                                 </div>
-                                                <h4 class="text-xl font-bold text-neutral-800">Bhiyaji.com</h4>
+                                                <h4 class="text-xl font-bold text-neutral-800">DakshPro.com</h4>
                                             </div>
                                             <p class="text-neutral-600 mb-6">
-                                                Bhiyaji.com is a comprehensive service marketplace designed to connect users with trusted local professionals for various household and business services.
+                                                DakshPro.com is a comprehensive service marketplace designed to connect users with trusted local professionals for various household and business services.
                                             </p>
                                             <!-- Content continues with similar structure -->
                                         </div>
@@ -870,14 +870,14 @@
                                 const publicPrintContent = document.getElementById('publicPrintContent');
                                 const rinAppContent = document.getElementById('rinAppContent');
                                 const myLoanCheckerContent = document.getElementById('myLoanCheckerContent');
-                                const bhiyajiContent = document.getElementById('bhiyajiContent');
+                                const DakshProContent = document.getElementById('DakshProContent');
                                 const digitalMirrorContent = document.getElementById('digitalMirrorContent');
 
                                 // Buttons
                                 const publicPrintBtn = document.getElementById('publicPrintBtn');
                                 const rinAppBtn = document.getElementById('rinAppBtn');
                                 const myLoanCheckerBtn = document.getElementById('myLoanCheckerBtn');
-                                const bhiyajiBtn = document.getElementById('bhiyajiBtn');
+                                const DakshProBtn = document.getElementById('DakshProBtn');
                                 const digitalMirrorBtn = document.getElementById('digitalMirrorBtn');
 
                                 // Hide all content
@@ -885,7 +885,7 @@
                                     publicPrintContent.classList.add('hidden');
                                     rinAppContent.classList.add('hidden');
                                     myLoanCheckerContent.classList.add('hidden');
-                                    bhiyajiContent.classList.add('hidden');
+                                    DakshProContent.classList.add('hidden');
                                     digitalMirrorContent.classList.add('hidden');
                                 }
 
@@ -936,11 +936,11 @@
                                     showModal();
                                 });
 
-                                // Bhiyaji button
-                                bhiyajiBtn.addEventListener('click', function() {
-                                    modalTitle.textContent = 'Bhiyaji.com';
+                                // DakshPro button
+                                DakshProBtn.addEventListener('click', function() {
+                                    modalTitle.textContent = 'DakshPro.com';
                                     hideAllContent();
-                                    bhiyajiContent.classList.remove('hidden');
+                                    DakshProContent.classList.remove('hidden');
                                     showModal();
                                 });
 
@@ -2043,12 +2043,12 @@
                 </div>
 
                 <div id="root">
-                    <section id="bhiyaji" class="py-16 bg-white">
+                    <section id="DakshPro" class="py-16 bg-white">
                         <div class="container mx-auto px-4">
                             <div class="flex flex-col md:flex-row items-center">
                                 <!-- Content Column -->
                                 <div class="w-full md:w-1/2 md:pr-10 order-2 md:order-1">
-                                    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-neutral-800">Bhiyaji.com</h2>
+                                    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-neutral-800">DakshPro.com</h2>
                                     <p class="text-neutral-600 mb-6">
                                         Connect with verified local professionals for all your home and business service needs. Find trusted electricians, plumbers, carpenters, and more.
                                     </p>
@@ -2098,7 +2098,7 @@
                                     </div>
 
                                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                                        <button id="openBhiyajiModal" class="bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300">
+                                        <button id="openDakshProModal" class="bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300">
               Find a Professional
             </button>
                                         <a href="#" class="inline-flex items-center justify-center bg-white border border-neutral-300 hover:border-amber-500 text-neutral-800 font-medium py-3 px-6 rounded-lg transition-colors duration-300">
@@ -2110,7 +2110,7 @@
                                 <!-- Image Column -->
                                 <div class="w-full md:w-1/2 mb-10 md:mb-0 order-1 md:order-2">
                                     <div class="relative rounded-xl overflow-hidden shadow-lg">
-                                        <img src="https://images.unsplash.com/photo-1484981138541-3d074aa97716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8YmhpeWFqaSUyMHByb2Zlc3Npb25hbHxlbnwwfDB8fHwxNzQ0NjU5NTg2fDA&ixlib=rb-4.0.3&q=80&w=1080?q=80" alt="Professional woman representing service providers on the Bhiyaji platform"
+                                        <img src="https://images.unsplash.com/photo-1484981138541-3d074aa97716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8YmhpeWFqaSUyMHByb2Zlc3Npb25hbHxlbnwwfDB8fHwxNzQ0NjU5NTg2fDA&ixlib=rb-4.0.3&q=80&w=1080?q=80" alt="Professional woman representing service providers on the DakshPro platform"
                                             onerror="this.onerror=null; this.src='https://placehold.co/600x400'" width="5760" height="3840" class="w-full h-auto object-cover">
                                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900/80 to-transparent">
                                             <p class="text-white text-xs">Photo by Brooke Lark</p>
@@ -2203,7 +2203,7 @@
                 </svg>
                                             </div>
                                         </div>
-                                        <p class="text-neutral-700 mb-4">"Bhiyaji.com saved me during an emergency plumbing issue. Found a professional in minutes who arrived within an hour. Quality work and fair pricing!"</p>
+                                        <p class="text-neutral-700 mb-4">"DakshPro.com saved me during an emergency plumbing issue. Found a professional in minutes who arrived within an hour. Quality work and fair pricing!"</p>
                                         <div class="font-medium text-neutral-800">Ankit S., New Delhi</div>
                                     </div>
 
@@ -2227,7 +2227,7 @@
                 </svg>
                                             </div>
                                         </div>
-                                        <p class="text-neutral-700 mb-4">"I've tried several service apps, but Bhiyaji.com stands out with their verified professionals. The carpenter who fixed my furniture was skilled and professional."</p>
+                                        <p class="text-neutral-700 mb-4">"I've tried several service apps, but DakshPro.com stands out with their verified professionals. The carpenter who fixed my furniture was skilled and professional."</p>
                                         <div class="font-medium text-neutral-800">Meera K., Mumbai</div>
                                     </div>
 
@@ -2251,7 +2251,7 @@
                 </svg>
                                             </div>
                                         </div>
-                                        <p class="text-neutral-700 mb-4">"As a busy professional, finding reliable home services is a challenge. Bhiyaji.com has become my go-to platform for all repairs and maintenance needs."</p>
+                                        <p class="text-neutral-700 mb-4">"As a busy professional, finding reliable home services is a challenge. DakshPro.com has become my go-to platform for all repairs and maintenance needs."</p>
                                         <div class="font-medium text-neutral-800">Rahul D., Bangalore</div>
                                     </div>
                                 </div>
@@ -2279,15 +2279,15 @@
                         </div>
 
                         <!-- Find Professional Modal -->
-                        <div id="bhiyajiModal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-modal="true" aria-hidden="true">
+                        <div id="DakshProModal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-modal="true" aria-hidden="true">
                             <!-- Modal Backdrop -->
-                            <div id="bhiyajiModalBackdrop" class="fixed inset-0 bg-black bg-opacity-50 transition-opacity"></div>
+                            <div id="DakshProModalBackdrop" class="fixed inset-0 bg-black bg-opacity-50 transition-opacity"></div>
 
                             <!-- Modal Content -->
                             <div class="relative min-h-screen flex items-center justify-center p-4">
                                 <div class="bg-white rounded-xl shadow-xl max-w-3xl w-full mx-auto relative transform transition-all">
                                     <!-- Close Button -->
-                                    <button id="closeBhiyajiModal" class="absolute top-4 right-4 text-neutral-500 hover:text-neutral-800 focus:outline-none z-10" aria-label="Close modal">
+                                    <button id="closeDakshProModal" class="absolute top-4 right-4 text-neutral-500 hover:text-neutral-800 focus:outline-none z-10" aria-label="Close modal">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -2365,10 +2365,10 @@
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
                                 // Modal Elements
-                                const bhiyajiModal = document.getElementById('bhiyajiModal');
-                                const openBhiyajiModal = document.getElementById('openBhiyajiModal');
-                                const closeBhiyajiModal = document.getElementById('closeBhiyajiModal');
-                                const bhiyajiModalBackdrop = document.getElementById('bhiyajiModalBackdrop');
+                                const DakshProModal = document.getElementById('DakshProModal');
+                                const openDakshProModal = document.getElementById('openDakshProModal');
+                                const closeDakshProModal = document.getElementById('closeDakshProModal');
+                                const DakshProModalBackdrop = document.getElementById('DakshProModalBackdrop');
                                 const findProfessionals = document.getElementById('findProfessionals');
 
                                 // Store previously focused element
@@ -2380,23 +2380,23 @@
                                     previouslyFocusedElement = document.activeElement;
 
                                     // Show the modal
-                                    bhiyajiModal.classList.remove('hidden');
-                                    bhiyajiModal.setAttribute('aria-hidden', 'false');
+                                    DakshProModal.classList.remove('hidden');
+                                    DakshProModal.setAttribute('aria-hidden', 'false');
 
                                     // Prevent scrolling on the body
                                     document.body.style.overflow = 'hidden';
 
                                     // Focus the close button
                                     setTimeout(function() {
-                                        closeBhiyajiModal.focus();
+                                        closeDakshProModal.focus();
                                     }, 100);
                                 }
 
                                 // Close modal function
                                 function closeModalFunc() {
                                     // Hide the modal
-                                    bhiyajiModal.classList.add('hidden');
-                                    bhiyajiModal.setAttribute('aria-hidden', 'true');
+                                    DakshProModal.classList.add('hidden');
+                                    DakshProModal.setAttribute('aria-hidden', 'true');
 
                                     // Restore scrolling on the body
                                     document.body.style.overflow = '';
@@ -2408,18 +2408,18 @@
                                 }
 
                                 // Open modal button click
-                                if (openBhiyajiModal) {
-                                    openBhiyajiModal.addEventListener('click', showModal);
+                                if (openDakshProModal) {
+                                    openDakshProModal.addEventListener('click', showModal);
                                 }
 
                                 // Close modal button click
-                                if (closeBhiyajiModal) {
-                                    closeBhiyajiModal.addEventListener('click', closeModalFunc);
+                                if (closeDakshProModal) {
+                                    closeDakshProModal.addEventListener('click', closeModalFunc);
                                 }
 
                                 // Close when clicking outside the modal
-                                if (bhiyajiModalBackdrop) {
-                                    bhiyajiModalBackdrop.addEventListener('click', closeModalFunc);
+                                if (DakshProModalBackdrop) {
+                                    DakshProModalBackdrop.addEventListener('click', closeModalFunc);
                                 }
 
                                 // Find professionals button (just closes the modal in this demo)
@@ -2435,17 +2435,17 @@
 
                                 // Close on ESC key press
                                 document.addEventListener('keydown', function(e) {
-                                    if (e.key === 'Escape' && bhiyajiModal && bhiyajiModal.classList.contains('hidden') === false) {
+                                    if (e.key === 'Escape' && DakshProModal && DakshProModal.classList.contains('hidden') === false) {
                                         closeModalFunc();
                                     }
                                 });
 
                                 // Trap focus within modal when open
-                                if (bhiyajiModal) {
-                                    bhiyajiModal.addEventListener('keydown', function(e) {
+                                if (DakshProModal) {
+                                    DakshProModal.addEventListener('keydown', function(e) {
                                         if (e.key === 'Tab') {
                                             // Find all focusable elements in the modal
-                                            const focusableElements = bhiyajiModal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+                                            const focusableElements = DakshProModal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
                                             const firstElement = focusableElements[0];
                                             const lastElement = focusableElements[focusableElements.length - 1];
 
@@ -2464,8 +2464,8 @@
                                 }
 
                                 // Prevent clicks inside modal content from closing the modal
-                                if (bhiyajiModal) {
-                                    const modalContent = bhiyajiModal.querySelector('.bg-white');
+                                if (DakshProModal) {
+                                    const modalContent = DakshProModal.querySelector('.bg-white');
                                     if (modalContent) {
                                         modalContent.addEventListener('click', function(e) {
                                             e.stopPropagation();
@@ -4073,7 +4073,7 @@
                                             <a href="#myloanchecker" class="text-neutral-400 hover:text-white transition-colors duration-300">MyLoanChecker</a>
                                         </li>
                                         <li>
-                                            <a href="#bhiyaji" class="text-neutral-400 hover:text-white transition-colors duration-300">Bhiyaji.com</a>
+                                            <a href="#DakshPro" class="text-neutral-400 hover:text-white transition-colors duration-300">DakshPro.com</a>
                                         </li>
                                         <li>
                                             <a href="#digitalmirror" class="text-neutral-400 hover:text-white transition-colors duration-300">Digital Mirror</a>
